@@ -12,44 +12,4 @@ Numpy 1.15.2
 gym 0.10.11 
 </pre>
 
-## How to use:
-The new script combines all extensions and the add-ons can be simply added by setting the corresponding flags.
 
-`python run.py -info your_run_info`
-
-**Parameter:**
-To see the options:
-`python run.py -h`
-
-
-### Observe training results
-  `tensorboard --logdir=runs`
-
-
-Added Extensions:
-
-- Prioritized Experience Replay [X]
-- N-Step Bootstrapping [X]
-- D2RL [X]
-- Distributional IQN Critic [X]
-- Munchausen RL [X]
-- Parallel-Environments [X]
-
-## Results 
-### Environment: Pendulum
-
-![Pendulum](imgs/D4PG_Improvements.png)
-
-Below you can see how IQN reduced the variance of the Critic loss:
-
-![CriticLoss](imgs/QvsIQN.png)
-
-
-### Environment: LunarLander
-![LunarLander](imgs/D4PG_LunarLanderContinuous.png)
-
-Notes:
-
-- Performance depends a lot on good hyperparameter->> tau for Per bigger (pendulum 1e-2) for regular replay (1e-3)
-
-- BatchNorm had good impact on the overall performance (!)
