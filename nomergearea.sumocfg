@@ -1,0 +1,19 @@
+<configuration>
+    <input>
+        <net-file value="noMergeArea.net.xml"/>
+        <route-files value="nomergearea.rou.xml"/>
+        <additional-files value="detectors.add.xml"/>
+    </input>
+    <seed value="43"/> 
+    <time>
+        <begin value="0"/>
+        <end value="4800"/>
+    </time>
+    <processing>
+        <time-to-teleport value="-1"/>
+        <max-depart-delay value="-1"/>
+        <extrapolate-departpos value="true"/>
+        <emergency-insert value="true"/>
+        <collision.stoptime value="0"/>
+    </processing>
+</configuration>

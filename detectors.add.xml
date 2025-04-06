@@ -1,0 +1,42 @@
+<additional>
+    <!-- Detectors -->
+    <inductionLoop id="e1_0" lane="M0_0" pos="149.00" period="300.00" file="detector\e1_0.xml"/>
+    <inductionLoop id="e1_1" lane="M0_1" pos="149.00" period="300.00" file="detector\e1_1.xml"/>
+    <inductionLoop id="e1_10" lane="M1_1" pos="600.00" period="300.00" file="detector\e1_10.xml"/>
+    <inductionLoop id="e1_11" lane="M1_2" pos="600.00" period="300.00" file="detector\e1_11.xml"/>
+    <inductionLoop id="e1_12" lane="M2_0" pos="0.00" period="300.00" file="detector\e1_12.xml"/>
+    <inductionLoop id="e1_13" lane="M2_1" pos="0.00" period="300.00" file="detector\e1_13.xml"/>
+    <inductionLoop id="e1_14" lane="M2_2" pos="0.00" period="300.00" file="detector\e1_14.xml"/>
+    <inductionLoop id="e1_15" lane="M2_0" pos="125.00" period="300.00" file="detector\e1_15.xml"/>
+    <inductionLoop id="e1_16" lane="M2_1" pos="125.00" period="300.00" file="detector\e1_16.xml"/>
+    <inductionLoop id="e1_17" lane="M2_2" pos="125.00" period="300.00" file="detector\e1_17.xml"/>
+    <inductionLoop id="e1_18" lane="M2_0" pos="248.00" period="300.00" file="detector\e1_18.xml"/>
+    <inductionLoop id="e1_19" lane="M2_1" pos="248.00" period="300.00" file="detector\e1_19.xml"/>
+    <inductionLoop id="e1_2" lane="M0_2" pos="149.00" period="300.00" file="detector\e1_2.xml"/>
+    <inductionLoop id="e1_20" lane="M2_2" pos="248.00" period="300.00" file="detector\e1_20.xml"/>
+    <inductionLoop id="e1_21" lane="M4_0" pos="104.00" period="300.00" file="detector\e1_21.xml"/>
+    <inductionLoop id="e1_22" lane="M4_1" pos="104.00" period="300.00" file="detector\e1_22.xml"/>
+    <inductionLoop id="e1_23" lane="M4_2" pos="104.00" period="300.00" file="detector\e1_23.xml"/>
+    <inductionLoop id="e1_24" lane="M4_0" pos="310.00" period="300.00" file="detector\e1_24.xml"/>
+    <inductionLoop id="e1_25" lane="M4_1" pos="310.00" period="300.00" file="detector\e1_25.xml"/>
+    <inductionLoop id="e1_26" lane="M4_2" pos="310.00" period="300.00" file="detector\e1_26.xml"/>
+    <inductionLoop id="e1_3" lane="M1_0" pos="200.00" period="300.00" file="detector\e1_3.xml"/>
+    <inductionLoop id="e1_4" lane="M1_1" pos="200.00" period="300.00" file="detector\e1_4.xml"/>
+    <inductionLoop id="e1_5" lane="M1_2" pos="200.00" period="300.00" file="detector\e1_5.xml"/>
+    <inductionLoop id="e1_6" lane="M1_0" pos="400.00" period="300.00" file="detector\e1_6.xml"/>
+    <inductionLoop id="e1_7" lane="M1_1" pos="400.00" period="300.00" file="detector\e1_7.xml"/>
+    <inductionLoop id="e1_8" lane="M1_2" pos="400.00" period="300.00" file="detector\e1_8.xml"/>
+    <inductionLoop id="e1_9" lane="M1_0" pos="600.00" period="300.00" file="detector\e1_9.xml"/>
+    <inductionLoop id="e1_VM0" lane="VM_0" pos="149.00" period="300.00" file="detector\e1_28.xml"/>
+    <inductionLoop id="e1_VM1" lane="VM_1" pos="149.00" period="300.00" file="detector\e1_29.xml"/>
+    <inductionLoop id="e1_VM2" lane="VM_2" pos="149.00" period="300.00" file="detector\e1_30.xml"/>
+    <inductionLoop id="e1_rin0" lane="VR_0" pos="199.00" period="300.00" file="detector\e1_27.xml"/>
+	<inductionLoop id="e1_rin1" lane="VR_1" pos="199.00" period="300.00" file="detector\e1_32.xml"/>
+    <inductionLoop id="e1_rout" lane="R2_1" pos="0.00" period="300.00" file="detector\e1_31.xml"/>
+	<inductionLoop id="e1_r0" lane="R0_0" pos="250.00" period="300.00" file="detector\e1_33.xml"/>
+    <inductionLoop id="e1_r1" lane="R0_1" pos="250.00" period="300.00" file="detector\e1_34.xml"/>
+	
+    <laneAreaDetector id="e2_0" lane="R0_0" pos="0" length="528.5" period="300.00"  file="detector\e2_0.xml"/>
+	<laneAreaDetector id="e2_1" lane="R0_1" pos="0" length="528.5" period="300.00"  file="detector\e2_1.xml"/>
+<laneData id="M" freq="30" file="lanedata.xml"/>
+</additional>
