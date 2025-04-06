@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<!-- generated on 2023-12-14 16:21:29 by Eclipse SUMO GUI Version 1.17.0
+<configuration xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="http://sumo.dlr.de/xsd/sumoConfiguration.xsd">
+
+    <input>
+        <net-file value="C:/Users/user/Desktop/DDPG/noMergeArea.net.xml"/>
+        <route-files value="C:/Users/user/Desktop/DDPG/nomergearea.rou.xml"/>
+        <additional-files value="C:/Users/user/Desktop/DDPG/detectors.add.xml"/>
+    </input>
+
+    <output>
+        <tripinfo-output value="C:/Users/user/Desktop/DDPG/nomergeout.xml"/>
+    </output>
+
+    <time>
+        <begin value="0"/>
+        <end value="5400"/>
+    </time>
+
+    <processing>
+        <extrapolate-departpos value="true"/>
+        <collision.stoptime value="0"/>
+        <time-to-teleport value="-1"/>
+        <max-depart-delay value="-1"/>
+        <emergency-insert value="true"/>
+    </processing>
+
+    <traci_server>
+        <remote-port value="53897"/>
+    </traci_server>
+
+    <random_number>
+        <seed value="123"/>
+    </random_number>
+
+</configuration>
+-->
+
+<detector xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="http://sumo.dlr.de/xsd/det_e1_file.xsd">
+    <interval begin="0.00" end="600.00" id="e1_VM1" nVehContrib="214" flow="1284.00" occupancy="6.73" speed="26.62" harmonicMeanSpeed="26.48" length="5.00" nVehEntered="214"/>
+    <interval begin="600.00" end="1200.00" id="e1_VM1" nVehContrib="212" flow="1272.00" occupancy="6.66" speed="26.69" harmonicMeanSpeed="26.55" length="5.00" nVehEntered="212"/>
+    <interval begin="1200.00" end="1800.00" id="e1_VM1" nVehContrib="292" flow="1752.00" occupancy="10.49" speed="23.64" harmonicMeanSpeed="23.20" length="5.00" nVehEntered="292"/>
+    <interval begin="1800.00" end="2400.00" id="e1_VM1" nVehContrib="293" flow="1758.00" occupancy="10.71" speed="23.53" harmonicMeanSpeed="22.80" length="5.00" nVehEntered="293"/>
+    <interval begin="2400.00" end="3000.00" id="e1_VM1" nVehContrib="250" flow="1500.00" occupancy="32.63" speed="7.46" harmonicMeanSpeed="6.38" length="5.00" nVehEntered="250"/>
+    <interval begin="3000.00" end="3600.00" id="e1_VM1" nVehContrib="259" flow="1554.00" occupancy="30.91" speed="7.99" harmonicMeanSpeed="6.98" length="5.00" nVehEntered="259"/>
+    <interval begin="3600.00" end="4200.00" id="e1_VM1" nVehContrib="256" flow="1536.00" occupancy="30.51" speed="7.78" harmonicMeanSpeed="6.99" length="5.00" nVehEntered="256"/>
+    <interval begin="4200.00" end="4800.00" id="e1_VM1" nVehContrib="244" flow="1464.00" occupancy="29.32" speed="8.90" harmonicMeanSpeed="6.93" length="5.00" nVehEntered="244"/>
+    <interval begin="4800.00" end="5400.00" id="e1_VM1" nVehContrib="219" flow="1314.00" occupancy="6.85" speed="26.75" harmonicMeanSpeed="26.63" length="5.00" nVehEntered="219"/>
+</detector>

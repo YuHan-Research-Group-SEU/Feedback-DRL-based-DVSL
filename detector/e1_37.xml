@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<!-- generated on 2023-12-08 19:54:30 by Eclipse SUMO GUI Version 1.17.0
+<configuration xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="http://sumo.dlr.de/xsd/sumoConfiguration.xsd">
+
+    <input>
+        <net-file value="shortramp.net.xml"/>
+        <route-files value="shortramp.rou.xml"/>
+        <additional-files value="detector.add.xml"/>
+    </input>
+
+    <time>
+        <begin value="0"/>
+        <end value="5400"/>
+    </time>
+
+    <processing>
+        <extrapolate-departpos value="true"/>
+        <time-to-teleport value="-1"/>
+        <max-depart-delay value="-1"/>
+        <emergency-insert value="true"/>
+    </processing>
+
+    <traci_server>
+        <remote-port value="51922"/>
+    </traci_server>
+
+    <random_number>
+        <seed value="123"/>
+    </random_number>
+
+    <gui_only>
+        <start value="true"/>
+    </gui_only>
+
+</configuration>
+-->
+
+<detector xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="http://sumo.dlr.de/xsd/det_e1_file.xsd">
+    <interval begin="0.00" end="300.00" id="e1_38" nVehContrib="87" flow="1044.00" occupancy="4.34" speed="30.52" harmonicMeanSpeed="30.35" length="4.50" nVehEntered="88"/>
+    <interval begin="300.00" end="365.00" id="e1_38" nVehContrib="25" flow="1384.62" occupancy="5.36" speed="31.31" harmonicMeanSpeed="31.24" length="4.50" nVehEntered="24"/>
+</detector>
